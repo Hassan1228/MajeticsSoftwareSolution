@@ -1,4 +1,4 @@
-import PageBanner2 from "@/components/BannerSection/PageBanner2";
+import Pagebanner2 from "@/components/BannerSection/Pagebanner2";
 import CallToSection from "@/components/CallToSection/CallToSection";
 
 import HeaderTwo from "@/components/Header/HeaderTwo";
@@ -25,7 +25,7 @@ const Pricing = () => {
       <HeaderTwo  headerStyle="mainmenu-seven" header={7} />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner2 title="Pricing Plans" page="Pricing Page" parent="Page" />
+      <Pagebanner2 title="Pricing Plans" page="Pricing Page" parent="Page" />
       <PricingOne />
       <CallToSection />
       <FooterSeven  normalPadding={false} />
