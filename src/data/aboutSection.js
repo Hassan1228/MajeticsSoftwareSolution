@@ -5,7 +5,6 @@ import image12 from "@/images/update-01-10-2021/resources/about-10-1-1.jpg";
 import image11 from "@/images/update-01-10-2021/resources/about-11-1-3.jpg";
 import image10 from "@/images/update-01-10-2021/resources/about-eight-1-2.jpg";
 import image9 from "@/images/update-01-10-2021/resources/about-eight-1-1.jpg";
-
 import image14 from "@/images/update-01-10-2021/resources/about-eight-1-3.jpg";
 import image15 from "@/images/update-01-10-2021/resources/about-eight-1-4.jpg";
 import image6 from "@/images/update-01-10-2021/resources/about-seven-1-1.jpg";
