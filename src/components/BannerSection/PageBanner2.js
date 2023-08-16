@@ -12,7 +12,7 @@ const PageBanner2 = ({
   return (
     <section className="page-banner">
       <div
-        className="image-layer2"
+        className="image-layer"
       
       ></div>
       <div className="shape-1"></div>
