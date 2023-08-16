@@ -1,8 +1,8 @@
-import bg from "@/images/background/image-7.jpg";
+import bg from "@/images/background/FAQ.jpg";
 import Link from "next/link";
 import React from "react";
 
-const PageBanner2 = ({
+const PageBanner3 = ({
   title = "",
   page = "",
   parent = "",
@@ -39,4 +39,4 @@ const PageBanner2 = ({
   );
 };
 
-export default PageBanner2;
+export default PageBanner3;
