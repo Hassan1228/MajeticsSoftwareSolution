@@ -5,7 +5,7 @@ import image12 from "@/images/update-01-10-2021/resources/about-10-1-1.jpg";
 import image11 from "@/images/update-01-10-2021/resources/about-11-1-3.jpg";
 import image10 from "@/images/update-01-10-2021/resources/about-eight-1-1.jpg";
 import image9 from "@/images/update-01-10-2021/resources/about-eight-1-1.jpg";
-import image6 from "@/images/update-01-10-2021/resources/about-seven-1-2.jpg";
+import image6 from "@/images/update-01-10-2021/resources/about-seven-1-1.jpg";
 import image7 from "@/images/update-01-10-2021/resources/about-seven-1-2.jpg";
 import image8 from "@/images/update-01-10-2021/resources/about-six-1-1.jpg";
 import image4 from "@/images/update-1-12-2020/resources/about-1-1.jpg";
