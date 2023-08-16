@@ -21211,9 +21211,9 @@ color: Var(--bg-color-1);
 
 @media (min-width: 1400px) {
   .slider-seven__round__image {
-    width: 986px;
-    height: 986px;
-    top: -170px;
+  width: 886px;
+    height: 886px;
+    top: -70px;
     right: -125px;
   }
 }
