@@ -1,3 +1,4 @@
+import bg from "@/images/background/image-price.jpg";
 
 
 import Link from "next/link";
@@ -13,7 +14,7 @@ const PageBanner2 = ({
     <section className="page-banner">
       <div
         className="image-layer"
-      
+       style={{ backgroundImage: `url(${bg.src})` }}
       ></div>
       <div className="shape-1"></div>
       <div className="shape-2"></div>
