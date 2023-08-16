@@ -1,4 +1,4 @@
-import bg from "@/images/background/image-7.jpg";
+
 import Link from "next/link";
 import React from "react";
 
@@ -12,7 +12,7 @@ const PageBanner = ({
     <section className="page-banner">
       <div
         className="image-layer"
-        style={{ backgroundImage: `url(src\assets\images\background\image-7.jpg)` }}
+       
       ></div>
       <div className="shape-1"></div>
       <div className="shape-2"></div>
