@@ -12,7 +12,7 @@ const PageBanner = ({
     <section className="page-banner">
       <div
         className="image-layer"
-        style={{ backgroundImage: `url(${bg.src})` }}
+        style={{ backgroundImage: `url(src\assets\images\background\image-7.jpg)` }}
       ></div>
       <div className="shape-1"></div>
       <div className="shape-2"></div>
