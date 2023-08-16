@@ -1,4 +1,4 @@
-import PageBanner from "@/components/BannerSection/PageBanner";
+import PageBanner5 from "@/components/BannerSection/PageBanner5";
 import CallToSectionTwo from "@/components/CallToSection/CallToSectionTwo";
 import HeaderTwo from "@/components/Header/HeaderTwo";
 import MobileMenu from "@/components/Header/MobileMenu";
@@ -26,7 +26,7 @@ const services = () => {
       <HeaderTwo headerStyle="mainmenu-seven" header={7}/>
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Services" />
+      <PageBanner5 title="Services" />
     
       <ServicesSectionOne />
       <WeWorkSection />
