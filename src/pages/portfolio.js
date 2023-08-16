@@ -1,4 +1,4 @@
-import PageBanner from "@/components/BannerSection/PageBanner";
+import PageBanner6 from "@/components/BannerSection/PageBanner6";
 import GallerySectionOne from "@/components/GallerySection/GallerySectionOne";
 import HeaderTwo from "@/components/Header/HeaderTwo";
 import MobileMenu from "@/components/Header/MobileMenu";
@@ -23,7 +23,7 @@ const Portfolio = () => {
       <HeaderTwo headerStyle="mainmenu-seven" header={7}/>
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="Portfolio" />
+      <PageBanner6 title="Portfolio" />
       <GallerySectionOne portfolio />
  <FooterSeven/>
     </Layout>
