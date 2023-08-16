@@ -1,4 +1,4 @@
-import PageBanner from "@/components/BannerSection/PageBanner";
+import PageBanner3 from "@/components/BannerSection/PageBanner3";
 import CallToSection from "@/components/CallToSection/CallToSection";
 import FeatureEight from "@/components/FeaturesSection/FeatureEight";
 import HeaderTwo from "@/components/Header/HeaderTwo";
@@ -28,7 +28,7 @@ const HowItWorks = () => {
       <HeaderTwo  headerStyle="mainmenu-seven" header={7} />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="How It Works" />
+      <PageBanner3 title="How It Works" />
       <HowItWorksPage />
       <SponsorsSection />
       <ParallaxSection />
