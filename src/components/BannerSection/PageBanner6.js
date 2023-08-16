@@ -1,8 +1,8 @@
-import bg from "@/images/background/image-7.jpg";
+import bg from "@/images/background/image-Port.jpg";
 import Link from "next/link";
 import React from "react";
 
-const PageBanner2 = ({
+const PageBanner6 = ({
   title = "",
   page = "",
   parent = "",
@@ -11,7 +11,7 @@ const PageBanner2 = ({
   return (
     <section className="page-banner">
       <div
-        className="image-layer2"
+        className="image-layer"
         style={{ backgroundImage: `url(${bg.src})` }}
       ></div>
    
@@ -39,4 +39,4 @@ const PageBanner2 = ({
   );
 };
 
-export default PageBanner2;
+export default PageBanner6;
