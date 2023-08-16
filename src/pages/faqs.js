@@ -1,4 +1,4 @@
-import PageBanner from "@/components/BannerSection/PageBanner";
+import PageBanner4 from "@/components/BannerSection/PageBanner4";
 import CallToSectionTwo from "@/components/CallToSection/CallToSectionTwo";
 import FaqsSection from "@/components/FaqsSection/FaqsSection";
 import GetQuoteThree from "@/components/GetQuote/GetQuoteThree";
@@ -26,7 +26,7 @@ const faqs = () => {
       <HeaderTwo  headerStyle="mainmenu-seven" header={7} />
       <MobileMenu />
       <SearchPopup />
-      <PageBanner title="FAQs" />
+      <PageBanner4 title="FAQs" />
       <FaqsSection />
       <GetQuoteThree />
       <CallToSectionTwo className="alternate" />
