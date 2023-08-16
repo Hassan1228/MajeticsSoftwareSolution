@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React from "react";
 
-const PageBanner = ({
+const PageBanner2 = ({
   title = "",
   page = "",
   parent = "",
@@ -12,7 +12,7 @@ const PageBanner = ({
   return (
     <section className="page-banner">
       <div
-        className="image-layer"
+        className="image-layer2"
       
       ></div>
       <div className="shape-1"></div>
@@ -41,4 +41,4 @@ const PageBanner = ({
   );
 };
 
-export default PageBanner;
+export default PageBanner2;
