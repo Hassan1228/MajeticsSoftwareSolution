@@ -11,7 +11,7 @@ const PageBanner3 = ({
   return (
     <section className="page-banner">
       <div
-        className="image-layer2"
+        className="image-layer"
         style={{ backgroundImage: `url(${bg.src})` }}
       ></div>
    
