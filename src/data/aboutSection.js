@@ -5,6 +5,9 @@ import image12 from "@/images/update-01-10-2021/resources/about-10-1-1.jpg";
 import image11 from "@/images/update-01-10-2021/resources/about-11-1-3.jpg";
 import image10 from "@/images/update-01-10-2021/resources/about-eight-1-2.jpg";
 import image9 from "@/images/update-01-10-2021/resources/about-eight-1-1.jpg";
+
+import image14 from "@/images/update-01-10-2021/resources/about-eight-1-3.jpg";
+import image15 from "@/images/update-01-10-2021/resources/about-eight-1-4.jpg";
 import image6 from "@/images/update-01-10-2021/resources/about-seven-1-1.jpg";
 import image7 from "@/images/update-01-10-2021/resources/about-seven-1-2.jpg";
 import image8 from "@/images/update-01-10-2021/resources/about-six-1-1.jpg";
@@ -74,7 +77,7 @@ export const aboutSix = {
   tagline: "",
   title: "Get to know Us Better",
   text: "Majetics is a design agency based in the UK. We provide branding, marketing, web and application design and development services to improve digital brand identity for businesses. We are a team of professionals, artists, designers, and writers that don't just work to complete the job but work and design with intention. We employ top-notch tools and softwares to deliver content that's creative and high quality. Our main priority is always building a trusting relationship with clients. Working with us is a close collaboration for businesses where we work hand in hand with you to develop original ideas tailored to your taste. No matter the design specifications, there is nothing we have ever failed to deliver. In short, we are brand ambassadors that improve businesses' relationships with their audiences.",
-  image: image9,
+  image: image14,
   items: [
    
   ],
@@ -83,7 +86,7 @@ export const aboutSix2 = {
   tagline: "",
   title: "WHAT WE PRACTICE ",
   text: "We at Majetics have one motto that is the driving force behind everything that we do: to provide the best design and development services in the UK. For any project, our work is guided by a clear goal about the target audience and what we hope to achieve. We actively listen to clients' ideas so that everything we accomplish aligns with their preferences. We don't claim to be the best like many other companies, but we claim to have a unique approach that sets our work apart from the rest. And we base our design process on data-driven insights, ensuring that our definition of the best aligns with the facts and satisfies the client's needs.",
-  image: image9,
+  image: image15,
   items: [
    
   ],
