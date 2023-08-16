@@ -11036,15 +11036,15 @@ color: Var(--bg-color-1);
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.4;
+  opacity: 1;
   z-index: 0;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .page-banner .shape-1 {
