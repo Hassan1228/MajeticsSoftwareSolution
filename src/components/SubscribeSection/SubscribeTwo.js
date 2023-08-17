@@ -15,22 +15,10 @@ const SubscribeTwo = () => {
         <Row>
           <Col md={12} lg={6}>
             <h3 className="subscribe-two__title">
-              Subscribe Our
-              <span>Newsletter</span> to Get New Updates.
+             Have a
+              <span>Project</span> in mind?.
             </h3>
-          </Col>
-          <Col md={12} lg={6}>
-            <form onSubmit={handleSubmit} className="subscribe-two__form">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                name="email"
-                required
-              />
-              <button type="submit">
-                <i className="flaticon-right-arrow"></i>
-              </button>
-            </form>
+    <a className="Let" href="/Contact">Lets Discuss</a>
           </Col>
         </Row>
       </div>
