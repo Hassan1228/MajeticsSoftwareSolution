@@ -19768,7 +19768,7 @@ color: Var(--bg-color-1);
 
 @media (min-width: 1200px) {
   .subscribe-two__title {
-    font-size: 50px;
+    font-size: 40px;
     max-width: 505px;
   }
 }
