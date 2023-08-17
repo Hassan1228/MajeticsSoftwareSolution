@@ -19775,7 +19775,8 @@ color: Var(--bg-color-1);
 }
 
 .subscribe-two__title span {
-  font-weight: bold;
+  font-weight: 700;
+	color: #a9278f;
 }
 
 .subscribe-two__form {
