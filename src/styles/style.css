@@ -12638,7 +12638,7 @@ color: Var(--bg-color-1);
   justify-content: space-between;
 /*   padding-left: 100px; */
   padding-right: 25px;
-  background-color: var(--bg-color-1);
+/*   background-color: var(--bg-color-1); */
 }
 
 .mobile-nav__container {
