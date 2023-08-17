@@ -21112,7 +21112,8 @@ color: Var(--bg-color-1);
 }
 
 .slider-seven__round__shape-2 {
-  color: #B2B3B3;
+  color: #000;
+	border:1px solid white;
   position: absolute;
   top: 0;
   right: 50px;
