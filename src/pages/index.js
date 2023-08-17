@@ -1,4 +1,4 @@
-import AboutEight from "@/components/AboutSection/AboutEight";
+
 import AboutNine from "@/components/AboutSection/AboutNine";
 import FunFactSeven from "@/components/FunFacts/FunFactSeven";
 import HeaderTwo from "@/components/Header/HeaderTwo";
@@ -19,7 +19,7 @@ import preloader from "@/images/icons/preloader.png";
 import React from "react";
 import Text from "@/components/Text";
 
-import WeDOSection from "@/components/WeDOSection/WeDOSection";
+
 
 
 const Home7 = () => {
@@ -42,9 +42,9 @@ const Home7 = () => {
       <Text/>
      
       <AboutNine />
-      <AboutEight />
+   
       <ProjectSeven />
-      <WeDOSection/>
+   
    
 
       <FunFactSeven />
