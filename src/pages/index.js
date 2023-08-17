@@ -18,7 +18,7 @@ import SubscribeTwo from "@/components/SubscribeSection/SubscribeTwo";
 import preloader from "@/images/icons/preloader.png";
 import React from "react";
 import Text from "@/components/Text";
-import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
+// import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 import WeDOSection from "@/components/WeDOSection/WeDOSection";
 import AboutSection from "@/components/AboutSection/AboutSection";
 
@@ -49,7 +49,7 @@ const Home7 = () => {
       // <PricingTwo />
       <FunFactSeven />
       <SponsorSeven />
-      <TestimonialsSection />
+      // <TestimonialsSection />
       <BlogSeven />
       <SubscribeTwo />
       <FooterSeven />
