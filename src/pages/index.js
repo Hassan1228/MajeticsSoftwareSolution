@@ -20,7 +20,7 @@ import React from "react";
 import Text from "@/components/Text";
 
 import WeDOSection from "@/components/WeDOSection/WeDOSection";
-import AboutSection from "@/components/AboutSection/AboutSection";
+
 
 const Home7 = () => {
   return (
@@ -45,7 +45,7 @@ const Home7 = () => {
       <AboutEight />
       <ProjectSeven />
       <WeDOSection/>
-      <AboutSection/>
+   
 
       <FunFactSeven />
       <SponsorSeven />
