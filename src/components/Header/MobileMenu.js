@@ -4,7 +4,7 @@ import headerData from "@/data/header";
 import React from "react";
 import { Image } from "react-bootstrap";
 
-const { icon, text, email, phone, socials, navItems, navItemsTwo } = headerData;
+const { logo7,icon, text, email, phone, socials, navItems, navItemsTwo } = headerData;
 
 const MobileMenu = ({ onePage = false }) => {
   const { menuStatus, toggleMenu } = useRootContext();
@@ -26,7 +26,8 @@ const MobileMenu = ({ onePage = false }) => {
             onClick={toggleMenu}
             className="side-menu__toggler side-menu__close-btn"
           >
-            <Image src={icon.src} alt="" />
+            <Image src={icon.src} alt="" /> 
+              <Image src={logo7.src} alt="" />
           </a>
         </div>
 
