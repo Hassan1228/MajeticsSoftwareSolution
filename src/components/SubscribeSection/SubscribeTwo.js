@@ -18,7 +18,7 @@ const SubscribeTwo = () => {
              Have a
               <span> Project </span>in mind ?
             </h3>
-    <a className="Let" href="/contact">Lets Discuss</a>
+    <a className="Let" href="contact">Lets Discuss</a>
           </Col>
         </Row>
       </div>
