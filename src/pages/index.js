@@ -10,7 +10,7 @@ import PricingTwo from "@/components/PricingSection/PricingTwo";
 import ProjectSeven from "@/components/ProjectSection/ProjectSeven";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
-import ServiceSeven from "@/components/ServicesSection/ServiceSeven";
+
 import SliderSeven from "@/components/SliderSection/SliderSeven";
 import SponsorSeven from "@/components/SponsorsSection/SponsorSeven";
 import SubscribeTwo from "@/components/SubscribeSection/SubscribeTwo";
@@ -40,7 +40,7 @@ const Home7 = () => {
       <SearchPopup />
       <SliderSeven />
       <Text/>
-      <ServiceSeven />
+     
       <AboutNine />
       <AboutEight />
       <ProjectSeven />
