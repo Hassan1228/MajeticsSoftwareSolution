@@ -752,7 +752,7 @@ img {
 
 .main-header .nav-outer .main-menu {
   position: relative;
-  display: inline-block;
+  display: none;
   vertical-align: middle;
 }
 
