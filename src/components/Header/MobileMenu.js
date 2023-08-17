@@ -27,7 +27,7 @@ const MobileMenu = ({ onePage = false }) => {
             className="side-menu__toggler side-menu__close-btn"
           >
             <Image src={icon.src} alt="" /> 
-              <Image src={logo7.src} alt="" />
+              <Image className="nav-logo" src={logo7.src} alt="" />
           </a>
         </div>
 
