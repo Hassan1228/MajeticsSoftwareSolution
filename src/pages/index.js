@@ -6,7 +6,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import FooterSeven from "@/components/MainFooter/FooterSeven";
 import BlogSeven from "@/components/NewsSection/BlogSeven";
-// import PricingTwo from "@/components/PricingSection/PricingTwo";
+
 import ProjectSeven from "@/components/ProjectSection/ProjectSeven";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
@@ -18,7 +18,7 @@ import SubscribeTwo from "@/components/SubscribeSection/SubscribeTwo";
 import preloader from "@/images/icons/preloader.png";
 import React from "react";
 import Text from "@/components/Text";
-import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
+
 import WeDOSection from "@/components/WeDOSection/WeDOSection";
 import AboutSection from "@/components/AboutSection/AboutSection";
 
@@ -46,10 +46,10 @@ const Home7 = () => {
       <ProjectSeven />
       <WeDOSection/>
       <AboutSection/>
-      // <PricingTwo />
+
       <FunFactSeven />
       <SponsorSeven />
-      <TestimonialsSection />
+   
       <BlogSeven />
       <SubscribeTwo />
       <FooterSeven />
