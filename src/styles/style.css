@@ -12637,7 +12637,7 @@ color: Var(--bg-color-1);
   -ms-flex-pack: justify;
   justify-content: space-between;
 /*   padding-left: 100px; */
-/*   padding-right: 40px; */
+  padding-right: 25px;
   background-color: var(--bg-color-1);
 }
 
