@@ -12829,8 +12829,8 @@ color: Var(--bg-color-1);
   margin-right: auto;
   height: 1px;
   background-color: #fff;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .side-menu__text p {
