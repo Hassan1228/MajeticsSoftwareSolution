@@ -12763,8 +12763,8 @@ color: Var(--bg-color-1);
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .side-menu__social a {
@@ -12809,7 +12809,7 @@ color: Var(--bg-color-1);
 }
 
 .side-menu__content p + p {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .side-menu__content p a {
