@@ -19754,6 +19754,7 @@ color: Var(--bg-color-1);
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+	      justify-content: center;
   }
 }
 
