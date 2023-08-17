@@ -19770,6 +19770,7 @@ color: Var(--bg-color-1);
   .subscribe-two__title {
     font-size: 40px;
     max-width: 505px;
+	  margin: auto;
   }
 }
 
