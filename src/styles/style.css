@@ -19745,8 +19745,7 @@ color: Var(--bg-color-1);
   left: 150px;
   width: 154px;
   height: 92px;
-  background-image: url(../assets/images/update-01-10-2021/shapes/subscribe-two-shape-1.png);
-  background-repeat: no-repeat;
+
 }
 
 @media (min-width: 1200px) {
