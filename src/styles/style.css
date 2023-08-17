@@ -19726,10 +19726,10 @@ color: Var(--bg-color-1);
   background-color: #5e2293;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: url(../assets/images/update-01-10-2021/shapes/subscribe-two-bg-1-1.png);
+/*   background-image: url(../assets/images/update-01-10-2021/shapes/subscribe-two-bg-1-1.png);
   background-repeat: no-repeat;
   background-position: top right;
-  position: relative;
+  position: relative; */
 }
 
 @media (min-width: 1200px) {
