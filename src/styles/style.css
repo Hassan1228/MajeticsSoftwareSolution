@@ -19734,8 +19734,8 @@ color: Var(--bg-color-1);
 
 @media (min-width: 1200px) {
   .subscribe-two {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 90px;
   }
 }
 
