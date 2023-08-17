@@ -24220,4 +24220,8 @@ background: #a9278f;
     height: 20px;
     border-radius: 12px;
 }
-
+.Let{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
