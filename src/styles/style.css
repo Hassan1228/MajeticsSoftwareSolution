@@ -21640,7 +21640,7 @@ color: Var(--bg-color-1);
 
 .mainmenu-seven__right .mobile-nav-toggler span {
   width: 28px;
-  height: 1px;
+  height: 3px;
   background-color: var(--bg-color-1);
   display: block;
 }
