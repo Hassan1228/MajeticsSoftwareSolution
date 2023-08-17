@@ -6,7 +6,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Layout from "@/components/Layout/Layout";
 import FooterSeven from "@/components/MainFooter/FooterSeven";
 import BlogSeven from "@/components/NewsSection/BlogSeven";
-import PricingTwo from "@/components/PricingSection/PricingTwo";
+// import PricingTwo from "@/components/PricingSection/PricingTwo";
 import ProjectSeven from "@/components/ProjectSection/ProjectSeven";
 import Style from "@/components/Reuseable/Style";
 import SearchPopup from "@/components/SearchPopup/SearchPopup";
@@ -46,7 +46,7 @@ const Home7 = () => {
       <ProjectSeven />
       <WeDOSection/>
       <AboutSection/>
-      <PricingTwo />
+      // <PricingTwo />
       <FunFactSeven />
       <SponsorSeven />
       <TestimonialsSection />
