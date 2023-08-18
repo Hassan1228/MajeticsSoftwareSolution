@@ -22,7 +22,12 @@ const MyApp = ({ Component, pageProps }) => {
     
     <ContextProvider>
       <Component {...pageProps} />
-    <Script src="https://unpkg.com/kursor"></Script>
+<script src="https://unpkg.com/kursor"></script>
+    <script>
+        new kursor({
+            type: 1
+        })
+    </script>
     </ContextProvider>
   );
 };
