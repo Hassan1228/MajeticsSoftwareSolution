@@ -39,7 +39,7 @@ class MyDocument extends Document {
           <link rel="icon" href="favicon.ico" />
               <link rel="stylesheet" href="kursor.css" />
               <link rel="stylesheet" href="kursor.js" />
-
+  <link rel="stylesheet" href="Custom.js" />
               
               <meta
             name="description"
