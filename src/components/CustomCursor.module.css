@@ -3,7 +3,8 @@
   position: fixed;
   width: 20px;
   height: 20px;
-  background-color: #ff0000;
+  background-color: none;
+  border: 2px solid black;
   border-radius: 50%;
   pointer-events: none;
   z-index: 9999;
