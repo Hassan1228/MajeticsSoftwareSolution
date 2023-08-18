@@ -1,6 +1,6 @@
 // components/CustomCursor.js
 import React, { useState, useEffect } from 'react';
-import styles from './CustomCursor.module.css';
+import styles from './CustomCursor.module.css'; 
 
 const CustomCursor = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: -100, y: -100 });
