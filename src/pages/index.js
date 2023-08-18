@@ -1,4 +1,4 @@
-
+import Head from 'next/head';
 import AboutNine from "@/components/AboutSection/AboutNine";
 import FunFactSeven from "@/components/FunFacts/FunFactSeven";
 import HeaderTwo from "@/components/Header/HeaderTwo";
@@ -24,6 +24,21 @@ import Text from "@/components/Text";
 
 const Home7 = () => {
   return (
+    <>
+    <Head>
+        <link rel="stylesheet" href="/style.css" />
+        <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
+        <script src="https://unpkg.com/kursor"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              new kursor({
+                type: 1
+              });
+            `,
+          }}
+        ></script>
+      </Head>
     <Layout pageTitle="Home " preloader={preloader}>
       <Style
         font="Rubik, sans-serif"
@@ -54,7 +69,14 @@ const Home7 = () => {
       <SubscribeTwo />
       <FooterSeven />
     </Layout>
+          </>
   );
 };
 
 export default Home7;
+
+// pages/index.js
+
+
+
+
