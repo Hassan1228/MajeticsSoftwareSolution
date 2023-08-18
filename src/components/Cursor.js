@@ -3,6 +3,7 @@ import getImage from 'util/getImage';
 import Link from './Link';
 import styles from './Cursor.module.css';
 
+
 const Cursor = () => {
   const delay = 18;
 
