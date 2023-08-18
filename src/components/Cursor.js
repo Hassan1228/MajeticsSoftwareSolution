@@ -1,7 +1,6 @@
 import { useEffect, useRef } from 'react';
-import getImage from 'util/getImage';
-import Link from './Link';
-import '@/App.css';
+
+
 
 const Cursor = () => {
   const delay = 18;
@@ -107,12 +106,7 @@ const Cursor = () => {
 
       <div className="links-container">
         {[...Array(4).keys()].map(i => (
-          <Link
-            key={i}
-            mouseOverEvent={mouseOverEvent}
-            mouseOutEvent={mouseOutEvent}
-            src={getImage(i + 1)}
-          />
+      
         ))}
       </div>
     </>
