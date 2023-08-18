@@ -28,6 +28,7 @@ const MyApp = ({ Component, pageProps }) => {
             type: 1
         })
     </script>
+    
     </ContextProvider>
   );
 };
