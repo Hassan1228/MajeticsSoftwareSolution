@@ -1,12 +1,7 @@
 // components/Cursor.js
 
-import styles from './App.module.css'; 
-
-
-
-  
-
-import { useEffect, useRef } from 'react';
+import styles from './App.css'; 
+rt { useEffect, useRef } from 'react';
 import getImage from 'util/getImage';
 import Link from './Link';
 
