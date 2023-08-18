@@ -83,7 +83,15 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-
+  <Script
+            strategy="lazyOnload" // This will defer script execution until after the page loads
+          >
+            {`
+              new kursor({
+                type: 1
+              });
+            `}
+          </Script>
         </body>
       </Html>
     );
