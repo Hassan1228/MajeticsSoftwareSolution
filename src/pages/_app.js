@@ -10,7 +10,7 @@ import "node_modules/swiper/swiper-bundle.min.css";
 import "react-circular-progressbar/dist/styles.css";
 import "react-modal-video/css/modal-video.min.css";
 import "tiny-slider/dist/tiny-slider.css";
-import "@/components/Cursor.js"
+import Cursor from "@/components/Cursor";
 
 // extra css
 import "@/styles/style.css";
@@ -21,12 +21,12 @@ import "@/styles/responsive.css";
 const MyApp = ({ Component, pageProps }) => {
   
   return (
-   
+  
     <ContextProvider>
-      <Component {...pageProps} />
-     <Cursor />
+      <Component {...pageProps}  />
+    
     </ContextProvider>
- 
+   <Cursor/>
   );
 };
 
