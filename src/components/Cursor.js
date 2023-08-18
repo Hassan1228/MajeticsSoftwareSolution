@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
-import getImage from 'util/getImage';
-import Link from './Link';
+
 import '@/App.css';
 
 const Cursor = () => {
