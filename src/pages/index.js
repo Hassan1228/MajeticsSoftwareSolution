@@ -18,7 +18,7 @@ import SubscribeTwo from "@/components/SubscribeSection/SubscribeTwo";
 import preloader from "@/images/icons/preloader.png";
 import React from "react";
 import Text from "@/components/Text";
-import CustomCursor from '../components/CustomCursor';
+
 
 
 
@@ -27,7 +27,7 @@ const Home7 = () => {
   return (
  
     <Layout pageTitle="Home " preloader={preloader}>
-      <CustomCursor />
+     
       <Style
         font="Rubik, sans-serif"
         bFont="Rubik, sans-serif"
