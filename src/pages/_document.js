@@ -78,15 +78,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-     <Script
-          src="https://unpkg.com/kursor"
-        
-        />
-              <Script
-        new kursor({
-            type: 1
-        })
-    />
+ 
         </body>
       </Html>
     );
