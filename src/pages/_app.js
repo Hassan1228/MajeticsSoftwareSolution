@@ -15,7 +15,7 @@ import "tiny-slider/dist/tiny-slider.css";
 import "@/styles/style.css";
 import "@/styles/hover.css";
 import "@/styles/responsive.css";
-import "/kursor.css";
+
 
 const MyApp = ({ Component, pageProps }) => {
   
