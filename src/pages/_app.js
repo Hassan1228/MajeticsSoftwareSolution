@@ -15,13 +15,14 @@ import "tiny-slider/dist/tiny-slider.css";
 import "@/styles/style.css";
 import "@/styles/hover.css";
 import "@/styles/responsive.css";
-
+import Script from 'next/script'; 
 const MyApp = ({ Component, pageProps }) => {
   
   return (
     
     <ContextProvider>
       <Component {...pageProps} />
+    <Script src="https://unpkg.com/kursor"></Script>
     </ContextProvider>
   );
 };
