@@ -37,7 +37,11 @@ class MyDocument extends Document {
             type="image/x-icon"
           />
           <link rel="icon" href="favicon.ico" />
-          <meta
+              <link rel="stylesheet" href="kursor.css" />
+              <link rel="stylesheet" href="kursor.js" />
+
+              
+              <meta
             name="description"
             content="Linoor is a multipurpose and powerful Digital Services Agency NextJS Template. The template is highly suitable template for companies that offer web design, web development, internet services, digital marketing, SEO services and all other internet marketing and services related agencies and businesses."
           />
