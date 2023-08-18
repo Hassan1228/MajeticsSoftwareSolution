@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import getImage from 'util/getImage';
 import Link from './Link';
-import './App.css';
+import styles from './Cursor.module.css';
 
 const Cursor = () => {
   const delay = 18;
