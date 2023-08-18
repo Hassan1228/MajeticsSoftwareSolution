@@ -73,12 +73,11 @@ class MyDocument extends Document {
           <link href="https://db.onlinewebfonts.com/c/1dc67d121b0a0ffd3b0284faf4de4d21?family=HURTMOLD" rel="stylesheet"></link>
                 <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
 
-                          <Script src="https://unpkg.com/kursor"/>
-    <Script
-        new kursor({
-            type: 1
-        })
-    />
+                <script src="https://unpkg.com/kursor">
+  &lt;Script new kursor({"{"}
+  type: 1{"}"}) /&gt;
+</script>
+
         </Head>
         <body>
           <Main />
