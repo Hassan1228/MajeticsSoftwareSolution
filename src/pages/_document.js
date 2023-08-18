@@ -1,6 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
 
-import Script from 'next/script';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -38,10 +37,7 @@ class MyDocument extends Document {
             type="image/x-icon"
           />
           <link rel="icon" href="favicon.ico" />
-              <link rel="stylesheet" href="kursor.css" />
-             <script src="kursor.js"></script>
-               <script src="Custom.js"></script>
-
+       
               
               <meta
             name="description"
