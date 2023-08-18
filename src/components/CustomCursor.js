@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react';
 import getImage from 'util/getImage';
 import Link from './Link';
-import './App.css';
+import styles from './CustomCursor.module.css';
 
-const Cursor = () => {
+const CustomCursor = () => {
   const delay = 18;
 
   const dot = useRef(null);
@@ -119,4 +119,4 @@ const Cursor = () => {
   );
 };
 
-export default Cursor;
+export default CustomCursor;
