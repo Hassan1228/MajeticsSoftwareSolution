@@ -72,7 +72,7 @@ class MyDocument extends Document {
           />
           <link href="https://db.onlinewebfonts.com/c/5a7db2db0a7c1a9f98bfad78893257cd?family=SuiGenerisRg-Regular" rel="stylesheet"></link>
           <link href="https://db.onlinewebfonts.com/c/1dc67d121b0a0ffd3b0284faf4de4d21?family=HURTMOLD" rel="stylesheet"></link>
-            <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css"/>
+            <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css"></link>
 
      
 
