@@ -1,7 +1,8 @@
+/* components/CustomCursor.module.css */
 * {
   cursor: none;
-  
 }
+
 .cursor-dot,
 .cursor-dot-outline {
   pointer-events: none;
@@ -31,4 +32,15 @@
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 40px;
+}
+
+.customCursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
 }
