@@ -1,9 +1,4 @@
 /* components/CustomCursor.module.css */
-* {
-  cursor: none;
-  background-color: #333;
-}
-
 .customCursor {
   position: fixed;
   width: 20px;
