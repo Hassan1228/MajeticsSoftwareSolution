@@ -1,9 +1,9 @@
 /* components/CustomCursor.module.css */
 .customCursor {
   position: fixed;
-  width: 20px;
-  height: 20px;
-  background-color: #ff0000;
+  width: 50px;
+  height: 50px;
+  background-color: none;
   border-radius: 50%;
   pointer-events: none;
   z-index: 9999;
