@@ -17,7 +17,7 @@ const CustomCursor = () => {
   }, []);
 
   return (
-    <div className={styles.container}>
+ 
       <div
         className={styles.cursor}
         style={{
@@ -25,7 +25,7 @@ const CustomCursor = () => {
           top: `${cursorPosition.y}px`,
         }}
       ></div>
-    </div>
+
   );
 };
 
