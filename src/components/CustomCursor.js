@@ -2,29 +2,22 @@ import React, { useState, useEffect } from 'react';
 import styles from './CustomCursor.module.css';
 
 const CustomCursor = () => {
-  const [cursorPosition, setCursorPosition] = useState({ x: -100, y: -100 });
+const cursor = document.querySelector('.cursor');
 
-  const updateCursorPosition = (e) => {
-    setCursorPosition({ x: e.clientX, y: e.clientY });
-  };
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+});
 
-  useEffect(() => {
-    window.addEventListener('mousemove', updateCursorPosition);
-
-    return () => {
-      window.removeEventListener('mousemove', updateCursorPosition);
-    };
-  }, []);
+document.addEventListener('click', e => {
+    cursor.classList.add("expand");
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500);
+});
 
   return (
  
-      <div
-        className={styles.cursor}
-        style={{
-          left: `${cursorPosition.x}px`,
-          top: `${cursorPosition.y}px`,
-        }}
-      ></div>
+    <div className="styles.cursor"></div>
 
   );
 };
