@@ -12,7 +12,7 @@ const CustomCursor = () => {
   const handleMouseClick = () => {
     setCursorExpanding(true);
     setTimeout(() => {
-      setCursorExpanding(false);
+      setCursorExpanding(false); 
     }, 500);
   };
 
