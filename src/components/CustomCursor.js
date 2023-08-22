@@ -2,23 +2,37 @@ import React, { useState, useEffect } from 'react';
 import styles from './CustomCursor.module.css';
 
 const CustomCursor = () => {
-const cursor = document.querySelector('.cursor');
+  const [cursorPosition, setCursorPosition] = useState({ x: -10, y: -10 });
+  const [isCursorExpanding, setCursorExpanding] = useState(false);
 
-document.addEventListener('mousemove', e => {
-    cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
-});
+  const handleMouseMove = (e) => {
+    setCursorPosition({ x: e.pageX - 10, y: e.pageY - 10 });
+  };
 
-document.addEventListener('click', e => {
-    cursor.classList.add("expand");
+  const handleMouseClick = () => {
+    setCursorExpanding(true);
     setTimeout(() => {
-        cursor.classList.remove("expand");
+      setCursorExpanding(false);
     }, 500);
-});
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('click', handleMouseClick);
+
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('click', handleMouseClick);
+    };
+  }, []);
 
   return (
- 
-    <div className="styles.cursor"></div>
-
+    <div className={styles.cursorContainer}>
+      <div
+        className={`${styles.cursor} ${isCursorExpanding ? styles.expand : ''}`}
+        style={{ top: `${cursorPosition.y}px`, left: `${cursorPosition.x}px` }}
+      ></div>
+    </div>
   );
 };
 
