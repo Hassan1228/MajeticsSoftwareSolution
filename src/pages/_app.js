@@ -5,6 +5,7 @@ import "@/vendors/flaticon.css";
 import "@/vendors/fontawesome-all.css";
 import "@/vendors/linoor-icons.css";
 import "@/vendors/reey-font.css";
+import "@/vendors/home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "node_modules/swiper/swiper-bundle.min.css";
 import "react-circular-progressbar/dist/styles.css";
