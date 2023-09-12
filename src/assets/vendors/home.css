@@ -26,9 +26,7 @@
   text-decoration: none;
   color: rgba(255, 255, 255, 0.7);
 }
-li.dropdown:nth-child(3) {
-  display: none;
-}
+
 #paper-window {
   height: 100vh;
   width: 100vw;
