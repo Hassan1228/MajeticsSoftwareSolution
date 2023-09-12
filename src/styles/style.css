@@ -24233,6 +24233,4 @@ background: #a9278f;
     color: white;
     font-family: 'SuiGenerisRg-Regular';
 }
-li.dropdown:nth-child(3) {
-  display: none;
-}
+
