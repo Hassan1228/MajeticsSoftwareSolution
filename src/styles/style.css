@@ -24173,7 +24173,7 @@ color: Var(--bg-color-1);
     -webkit-transform 500ms ease;
 }
 
-.pricing-three .switch-toggler-list li .switch.off span {
+.pricing-three .switch-toggler-list li .switch.off span { 
   background-color: var(--thm-black);
   -webkit-transform: translateX(43px);
   transform: translateX(43px);
